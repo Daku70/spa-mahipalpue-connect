@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage - Highest Priority -->
+  <url>
+    <loc>https://mahipalpurspacentre.com/</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/hero-spa.jpg</image:loc>
+      <image:title>Russian Spa Centre Mahipalpur - Luxury Spa Interior</image:title>
+      <image:caption>Experience authentic Russian spa treatments in Mahipalpur, Delhi</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/logo.png</image:loc>
+      <image:title>Russian Spa Centre Logo</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Services Page - High Priority -->
+  <url>
+    <loc>https://mahipalpurspacentre.com/services</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/banya.jpg</image:loc>
+      <image:title>Traditional Russian Banya Treatment</image:title>
+      <image:caption>Authentic Russian steam bath with Venik birch leaf massage</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/massage.jpg</image:loc>
+      <image:title>Professional Body Massage Therapy</image:title>
+      <image:caption>Deep tissue and Swedish massage services in Mahipalpur</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Prices Page - High Priority -->
+  <url>
+    <loc>https://mahipalpurspacentre.com/prices</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/couple-spa.jpg</image:loc>
+      <image:title>Couples Spa Package</image:title>
+      <image:caption>Romantic spa experience for couples in Mahipalpur</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://mahipalpurspacentre.com/about</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- Gallery Page -->
+  <url>
+    <loc>https://mahipalpurspacentre.com/gallery</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/aromatherapy.jpg</image:loc>
+      <image:title>Aromatherapy Session</image:title>
+      <image:caption>Premium aromatherapy treatments with essential oils</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/deep-tissue.jpg</image:loc>
+      <image:title>Deep Tissue Massage</image:title>
+      <image:caption>Therapeutic deep tissue massage for muscle tension relief</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/swedish.jpg</image:loc>
+      <image:title>Swedish Massage</image:title>
+      <image:caption>Classic Swedish massage for relaxation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://mahipalpurspacentre.com/assets/facial.jpg</image:loc>
+      <image:title>Facial Treatment</image:title>
+      <image:caption>Premium facial treatments for skin rejuvenation</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://mahipalpurspacentre.com/contact</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- Blog Page -->
+  <url>
+    <loc>https://mahipalpurspacentre.com/blog</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- Service-specific anchor URLs for better indexing -->
+  <url>
+    <loc>https://mahipalpurspacentre.com/services#russian-banya</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://mahipalpurspacentre.com/services#deep-tissue-massage</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://mahipalpurspacentre.com/services#swedish-massage</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://mahipalpurspacentre.com/services#thai-massage</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://mahipalpurspacentre.com/services#aromatherapy</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  
+  <url>
+    <loc>https://mahipalpurspacentre.com/services#couples-spa</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+</urlset>

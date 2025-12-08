@@ -1,0 +1,74 @@
+# Russian Spa Centre Mahipalpur - Robots.txt
+# https://mahipalpurspacentre.com
+
+# Allow all major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /assets/
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# Social Media Bots
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterest
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Default for all other bots
+User-agent: *
+Allow: /
+Crawl-delay: 2
+
+# Allow indexing of important directories
+Allow: /assets/
+Allow: /services
+Allow: /prices
+Allow: /about
+Allow: /contact
+Allow: /gallery
+Allow: /blog
+
+# Disallow admin or test pages
+Disallow: /admin/
+Disallow: /test/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Sitemaps
+Sitemap: https://mahipalpurspacentre.com/sitemap.xml
+
+# Host directive for Yandex
+Host: https://mahipalpurspacentre.com

@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 20 15% 10%;
+    --foreground: 40 20% 92%;
+
+    --card: 20 18% 12%;
+    --card-foreground: 40 20% 92%;
+
+    --popover: 20 18% 12%;
+    --popover-foreground: 40 20% 92%;
+
+    --primary: 43 74% 58%;
+    --primary-foreground: 20 15% 10%;
+
+    --secondary: 30 25% 22%;
+    --secondary-foreground: 40 20% 92%;
+
+    --muted: 30 15% 20%;
+    --muted-foreground: 40 15% 65%;
+
+    --accent: 43 74% 58%;
+    --accent-foreground: 20 15% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 40 20% 92%;
+
+    --border: 30 20% 25%;
+    --input: 30 20% 18%;
+    --ring: 43 74% 58%;
+
+    --radius: 0.75rem;
+    
+    /* Custom spa theme tokens */
+    --gold: 43 74% 58%;
+    --gold-light: 45 80% 70%;
+    --gold-dark: 40 65% 45%;
+    --spa-dark: 20 15% 10%;
+    --spa-brown: 25 20% 15%;
+    --spa-cream: 40 20% 92%;
+    
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(43 74% 58%), hsl(45 80% 70%));
+    --gradient-dark: linear-gradient(180deg, hsl(20 15% 10%), hsl(25 20% 15%));
+    
+    /* Shadows */
+    --shadow-gold: 0 10px 40px -10px hsl(43 74% 58% / 0.3);
+    --shadow-elegant: 0 20px 60px -15px hsl(0 0% 0% / 0.5);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 20 15% 10%;
+    --foreground: 40 20% 92%;
+
+    --card: 20 18% 12%;
+    --card-foreground: 40 20% 92%;
+
+    --popover: 20 18% 12%;
+    --popover-foreground: 40 20% 92%;
+
+    --primary: 43 74% 58%;
+    --primary-foreground: 20 15% 10%;
+
+    --secondary: 30 25% 22%;
+    --secondary-foreground: 40 20% 92%;
+
+    --muted: 30 15% 20%;
+    --muted-foreground: 40 15% 65%;
+
+    --accent: 43 74% 58%;
+    --accent-foreground: 20 15% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 40 20% 92%;
+
+    --border: 30 20% 25%;
+    --input: 30 20% 18%;
+    --ring: 43 74% 58%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .text-gold {
+    color: hsl(var(--gold));
+  }
+  
+  .bg-gold {
+    background-color: hsl(var(--gold));
+  }
+  
+  .text-gold-light {
+    color: hsl(var(--gold-light));
+  }
+  
+  .text-spa-cream {
+    color: hsl(var(--spa-cream));
+  }
+  
+  .bg-spa-dark {
+    background-color: hsl(var(--spa-dark));
+  }
+  
+  .bg-spa-brown {
+    background-color: hsl(var(--spa-brown));
+  }
+  
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1s ease-in;
+  }
+  
+  .animate-fade-in-delay {
+    animation: fadeIn 1s ease-in 0.3s both;
+  }
+  
+  .animate-fade-in-delay-2 {
+    animation: fadeIn 1s ease-in 0.6s both;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

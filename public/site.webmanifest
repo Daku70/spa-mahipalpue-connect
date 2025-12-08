@@ -1,0 +1,74 @@
+{
+  "name": "Russian Spa Centre Mahipalpur - Best Russian Spa Near Delhi Airport",
+  "short_name": "Russian Spa Centre",
+  "description": "Premium Russian Spa in Mahipalpur & Aerocity offering authentic Russian Banya, body massage, Thai massage, deep tissue therapy, and couples spa packages. 10 min from Delhi Airport. Open 24/7. Book online or call +91-9818931148",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#8B4513",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "wellness", "spa", "beauty", "lifestyle", "fitness"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "/assets/hero-spa.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Russian Spa Centre - Luxury Spa Interior Mahipalpur"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Book Appointment",
+      "short_name": "Book",
+      "description": "Book your spa appointment online",
+      "url": "/#booking?source=pwa",
+      "icons": [{ "src": "/favicon.png", "sizes": "64x64" }]
+    },
+    {
+      "name": "Call Now",
+      "short_name": "Call",
+      "description": "Call Russian Spa Centre",
+      "url": "tel:+919818931148",
+      "icons": [{ "src": "/favicon.png", "sizes": "64x64" }]
+    },
+    {
+      "name": "View Services",
+      "short_name": "Services",
+      "description": "Browse our spa services",
+      "url": "/services?source=pwa",
+      "icons": [{ "src": "/favicon.png", "sizes": "64x64" }]
+    },
+    {
+      "name": "Check Prices",
+      "short_name": "Prices",
+      "description": "View transparent pricing",
+      "url": "/prices?source=pwa",
+      "icons": [{ "src": "/favicon.png", "sizes": "64x64" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

@@ -1,0 +1,14 @@
+/* TEAM */
+Team: Russian Spa Centre
+Site: https://mahipalpurspacentre.com
+Location: Mahipalpur, New Delhi, India
+
+/* THANKS */
+Wellness Enthusiasts of Delhi NCR
+
+/* SITE */
+Last update: 2025/11/09
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: React, TypeScript, Tailwind CSS
+Software: Lovable, Vite
+SEO: Optimized for search engines and user experience
