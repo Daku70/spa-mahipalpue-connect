@@ -39,10 +39,10 @@ const Location = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-foreground mb-1">Phone</h3>
                   <a 
-                    href="tel:+919818931148" 
+                    href="tel:+919355125143" 
                     className="text-muted-foreground hover:text-gold transition-smooth text-lg"
                   >
-                    +91 98189 31148
+                    +91 93551 25143
                   </a>
                 </div>
               </div>
@@ -54,10 +54,10 @@ const Location = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-foreground mb-1">Email</h3>
                   <a 
-                    href="mailto:info@russianspacentre.com" 
+                    href="mailto:info@lisaspamahipalpur.com" 
                     className="text-muted-foreground hover:text-gold transition-smooth"
                   >
-                    info@russianspacentre.com
+                    info@lisaspamahipalpur.com
                   </a>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Location = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Russian Spa Centre Location - Mahipalpur, New Delhi"
+                title="Lisa Spa Mahipalpur Location - Mahipalpur, New Delhi"
                 className="grayscale-[0.3] contrast-[1.1]"
               />
             </div>

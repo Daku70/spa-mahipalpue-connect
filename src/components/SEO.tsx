@@ -87,8 +87,8 @@ const SEO = ({
     updateMetaTag('og:url', fullUrl, true);
     updateMetaTag('og:type', ogType, true);
     updateMetaTag('og:image', ogImage || defaultImage, true);
-    updateMetaTag('og:image:alt', title || 'Russian Spa Centre - Luxury Spa in Mahipalpur', true);
-    updateMetaTag('og:site_name', 'Russian Spa Centre - Mahipalpur', true);
+    updateMetaTag('og:image:alt', title || 'Lisa Spa Mahipalpur - Luxury Spa in Mahipalpur', true);
+    updateMetaTag('og:site_name', 'Lisa Spa Mahipalpur', true);
     updateMetaTag('og:locale', 'en_IN', true);
 
     // Twitter Card tags
@@ -100,8 +100,8 @@ const SEO = ({
       updateMetaTag('twitter:description', description);
     }
     updateMetaTag('twitter:image', ogImage || defaultImage);
-    updateMetaTag('twitter:image:alt', title || 'Russian Spa Centre');
-    updateMetaTag('twitter:site', '@RussianSpaMahi');
+    updateMetaTag('twitter:image:alt', title || 'Lisa Spa Mahipalpur');
+    updateMetaTag('twitter:site', '@LisaSpaMahi');
 
     // Article metadata (if applicable)
     if (article) {

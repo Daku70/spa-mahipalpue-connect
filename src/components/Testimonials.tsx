@@ -7,8 +7,8 @@ const testimonials = [
     location: "Gurgaon, Delhi NCR",
     rating: 5,
     date: "October 2025",
-    text: "The Russian Banya experience here is absolutely authentic! I've been to spas all over Delhi, but nothing compares to the traditional Venik treatment they offer. The therapists are highly skilled and the facility is impeccably clean. Perfect location near the airport too. Highly recommend for anyone seeking genuine wellness.",
-    service: "Russian Banya & Aromatherapy"
+    text: "The Banya experience here is absolutely authentic! I've been to spas all over Delhi, but nothing compares to the traditional Venik treatment they offer. The therapists are highly skilled and the facility is impeccably clean. Perfect location near the airport too. Highly recommend for anyone seeking genuine wellness.",
+    service: "Banya & Aromatherapy"
   },
   {
     name: "James Mitchell",
@@ -23,7 +23,7 @@ const testimonials = [
     location: "South Delhi",
     rating: 5,
     date: "September 2025",
-    text: "We celebrated our anniversary with the Couple's Spa Package and it was magical! The synchronized massage in the beautiful couples room was so relaxing. The Russian Banya beforehand was a unique experience we'll never forget. The complimentary champagne and the entire ambiance made it truly special. Best spa experience in Mahipalpur!",
+    text: "We celebrated our anniversary with the Couple's Spa Package and it was magical! The synchronized massage in the beautiful couples room was so relaxing. The Banya beforehand was a unique experience we'll never forget. The complimentary champagne and the entire ambiance made it truly special. Best spa experience in Mahipalpur!",
     service: "Couple's Spa Package"
   },
   {
@@ -31,7 +31,7 @@ const testimonials = [
     location: "Aerocity, New Delhi",
     rating: 5,
     date: "October 2025",
-    text: "As a physician, I'm particular about hygiene and professionalism. Russian Spa Centre exceeds all expectations. Their therapists are certified, knowledgeable, and truly understand therapeutic massage. The hygiene standards are hospital-grade. I've been coming here monthly for the past year for stress relief and chronic back pain – remarkable improvement!",
+    text: "As a physician, I'm particular about hygiene and professionalism. Lisa Spa Mahipalpur exceeds all expectations. Their therapists are certified, knowledgeable, and truly understand therapeutic massage. The hygiene standards are hospital-grade. I've been coming here monthly for the past year for stress relief and chronic back pain – remarkable improvement!",
     service: "Thai Massage & Sports Massage"
   },
   {
@@ -39,7 +39,7 @@ const testimonials = [
     location: "Mahipalpur, Delhi",
     rating: 5,
     date: "November 2025",
-    text: "Local resident here and I've tried many spas in the area. Russian Spa Centre is hands down the best in Mahipalpur. The Swedish massage is divine, and their aromatherapy oils are premium quality. What I appreciate most is the personalized approach – they remember my preferences and adjust treatments to my needs. Exceptional service every single time.",
+    text: "Local resident here and I've tried many spas in the area. Lisa Spa Mahipalpur is hands down the best in Mahipalpur. The Swedish massage is divine, and their aromatherapy oils are premium quality. What I appreciate most is the personalized approach – they remember my preferences and adjust treatments to my needs. Exceptional service every single time.",
     service: "Swedish Massage"
   },
   {
@@ -63,7 +63,7 @@ const testimonials = [
     location: "Vasant Kunj, Delhi",
     rating: 5,
     date: "September 2025",
-    text: "We've tried many couple's spa packages across Delhi, but Russian Spa Centre offers the best value and experience. The couples room is beautifully designed, very private and romantic. Both therapists were synchronized perfectly, and they remembered it was our anniversary with a special setup. The Russian Banya before the massage was an incredible unique experience. We're now regular monthly visitors!",
+    text: "We've tried many couple's spa packages across Delhi, but Lisa Spa Mahipalpur offers the best value and experience. The couples room is beautifully designed, very private and romantic. Both therapists were synchronized perfectly, and they remembered it was our anniversary with a special setup. The Banya before the massage was an incredible unique experience. We're now regular monthly visitors!",
     service: "Couple's Spa Package"
   },
   {
@@ -93,7 +93,7 @@ const Testimonials = () => {
             What Our Clients Say
           </h2>
           <p className="text-xl text-spa-cream max-w-3xl mx-auto font-light">
-            Join thousands of satisfied clients who trust Russian Spa Centre for their wellness journey in Delhi NCR
+            Join thousands of satisfied clients who trust Lisa Spa Mahipalpur for their wellness journey in Delhi NCR
           </p>
           <div className="flex items-center justify-center gap-4 mt-6">
             <div className="flex items-center gap-1">
@@ -141,7 +141,7 @@ const Testimonials = () => {
             Ready to experience the best spa in Mahipalpur? Join our growing community of wellness enthusiasts.
           </p>
           <a 
-            href="tel:+919818931148"
+            href="tel:+919355125143"
             className="inline-block bg-gradient-to-r from-gold to-gold-light hover:opacity-90 text-spa-dark font-semibold px-8 py-4 rounded-lg transition-smooth"
           >
             Book Your Appointment Now
@@ -156,7 +156,7 @@ const Testimonials = () => {
           "@type": "Review",
           "itemReviewed": {
             "@type": "DaySpa",
-            "name": "Russian Spa Centre - Mahipalpur",
+            "name": "Lisa Spa Mahipalpur",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Mahipalpur, New Delhi",
@@ -174,7 +174,7 @@ const Testimonials = () => {
             "@type": "Person",
             "name": "Verified Customers"
           },
-          "reviewBody": "Best Russian spa in Mahipalpur with authentic Banya, professional therapists, and exceptional hygiene standards."
+          "reviewBody": "Best spa in Mahipalpur with authentic Banya, professional therapists, and exceptional hygiene standards."
         })}
       </script>
     </section>

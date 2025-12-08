@@ -31,7 +31,7 @@ const LocationBenefits = () => {
     {
       icon: Clock,
       title: "Open 24/7 for Your Convenience",
-      description: "Whether you have a late-night flight arrival, early morning departure, work odd hours, or simply prefer nighttime appointments, we're always open. Our 24/7 operation means you can book a relaxing massage or authentic Russian Banya experience at any time that suits your schedule, any day of the week."
+      description: "Whether you have a late-night flight arrival, early morning departure, work odd hours, or simply prefer nighttime appointments, we're always open. Our 24/7 operation means you can book a relaxing massage or authentic Banya experience at any time that suits your schedule, any day of the week."
     }
   ];
 
@@ -79,7 +79,7 @@ const LocationBenefits = () => {
           </h3>
           <div className="space-y-4 text-spa-cream leading-relaxed">
             <p>
-              <strong className="text-gold">For International Travelers:</strong> Skip the hassle of navigating through Delhi traffic. Our proximity to the airport means you can enjoy a world-class spa experience during long layovers or immediately upon arrival. Store your luggage with us, relax with a Russian Banya session, and head to your hotel refreshed. Many pilots, flight attendants, and international business travelers make us their regular wellness stop in Delhi.
+              <strong className="text-gold">For International Travelers:</strong> Skip the hassle of navigating through Delhi traffic. Our proximity to the airport means you can enjoy a world-class spa experience during long layovers or immediately upon arrival. Store your luggage with us, relax with a Banya session, and head to your hotel refreshed. Many pilots, flight attendants, and international business travelers make us their regular wellness stop in Delhi.
             </p>
             <p>
               <strong className="text-gold">For Business Professionals:</strong> If you're staying in Aerocity or attending meetings in the area, we're your oasis of calm amidst a busy schedule. Just 5-10 minutes from major business hotels and conference centers, you can squeeze in a therapeutic massage between meetings or unwind after a long day without wasting time in Delhi traffic.
@@ -98,7 +98,7 @@ const LocationBenefits = () => {
             Ready to experience the most conveniently located premium spa in Delhi NCR?
           </p>
           <a 
-            href="tel:+919818931148"
+            href="tel:+919355125143"
             className="inline-block bg-gradient-to-r from-gold to-gold-light hover:opacity-90 text-spa-dark font-semibold px-8 py-4 rounded-lg transition-smooth"
           >
             Book Your Visit Now
@@ -111,11 +111,11 @@ const LocationBenefits = () => {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Russian Spa Centre - Mahipalpur",
+          "name": "Lisa Spa Mahipalpur",
           "image": "https://mahipalpurspacentre.com/og-image.jpg",
           "@id": "https://mahipalpurspacentre.com",
           "url": "https://mahipalpurspacentre.com",
-          "telephone": "+919818931148",
+          "telephone": "+919355125143",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Mahipalpur",

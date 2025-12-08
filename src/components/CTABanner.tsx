@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const CTABanner = () => {
   const handleCallNow = () => {
-    window.location.href = "tel:+919818931148";
+    window.location.href = "tel:+919355125143";
   };
 
   const scrollToBooking = () => {
@@ -15,10 +15,10 @@ const CTABanner = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-spa-dark mb-4">
-            Ready to Experience India's Best Russian Spa?
+            Ready to Experience India's Best Spa?
           </h2>
           <p className="text-lg md:text-xl text-spa-dark/90 mb-8 max-w-3xl mx-auto">
-            Join 10,000+ satisfied clients who trust Russian Spa Centre for authentic wellness treatments. 
+            Join 10,000+ satisfied clients who trust Lisa Spa Mahipalpur for authentic wellness treatments. 
             Book your appointment today and discover why we're rated #1 in Mahipalpur & Aerocity.
           </p>
           
@@ -29,7 +29,7 @@ const CTABanner = () => {
               className="bg-spa-dark hover:bg-spa-dark/90 text-gold font-bold text-lg px-8 py-6 shadow-xl"
             >
               <Phone className="mr-2 h-5 w-5" />
-              Call Now: +91 98189 31148
+              Call Now: +91 93551 25143
             </Button>
             <Button 
               size="lg" 

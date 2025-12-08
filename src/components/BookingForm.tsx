@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { useToast } from "@/hooks/use-toast";
 
 const services = [
-  "Traditional Russian Banya",
+  "Traditional Banya",
   "Deep Tissue Massage",
   "Hot Stone Therapy",
   "Aromatherapy Massage",
@@ -44,7 +44,7 @@ const BookingForm = () => {
       `*Service:* ${encodeURIComponent(formData.service)}`;
     
     // Open WhatsApp with the message
-    const whatsappUrl = `https://wa.me/919818931148?text=${message}`;
+    const whatsappUrl = `https://wa.me/919355125143?text=${message}`;
     window.open(whatsappUrl, '_blank');
 
     toast({

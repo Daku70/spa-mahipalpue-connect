@@ -8,12 +8,12 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "What makes your Russian Banya experience authentic?",
-      answer: "Our Russian Banya is designed according to traditional specifications with proper temperature and humidity controls. We use authentic Venik bundles made from imported birch leaves, following centuries-old Russian wellness traditions. Our therapists are trained in traditional Russian bathing rituals, ensuring you receive a genuine cultural and therapeutic experience that's rare to find in Delhi NCR."
+      question: "What makes your spa experience authentic?",
+      answer: "Our spa is designed according to traditional specifications with proper temperature and humidity controls. We use authentic Venik bundles made from imported birch leaves, following centuries-old wellness traditions. Our therapists are trained in traditional bathing rituals, ensuring you receive a genuine cultural and therapeutic experience that's rare to find in Delhi NCR."
     },
     {
       question: "Do you offer couple's spa packages?",
-      answer: "Yes! Our luxurious couple's spa packages are perfect for anniversaries, special occasions, or quality time together. The package includes synchronized massages in a beautifully appointed couples room, access to our Russian Banya, aromatherapy, and complimentary refreshments. We can also customize packages based on your preferences and celebrate special occasions with champagne and roses."
+      answer: "Yes! Our luxurious couple's spa packages are perfect for anniversaries, special occasions, or quality time together. The package includes synchronized massages in a beautifully appointed couples room, access to our steam room, aromatherapy, and complimentary refreshments. We can also customize packages based on your preferences and celebrate special occasions with champagne and roses."
     },
     {
       question: "How close are you to Delhi Airport?",
@@ -25,11 +25,11 @@ const FAQ = () => {
     },
     {
       question: "What types of massage therapy do you offer?",
-      answer: "We offer a comprehensive range of therapeutic massages including Swedish massage for relaxation, Deep Tissue massage for chronic pain and muscle tension, Thai massage for flexibility and energy flow, Sports massage for athletes, Hot Stone therapy for deep relaxation, Aromatherapy massage with essential oils, and our signature Russian Banya experience with Venik treatment. Each treatment can be customized to your specific needs."
+      answer: "We offer a comprehensive range of therapeutic massages including Swedish massage for relaxation, Deep Tissue massage for chronic pain and muscle tension, Thai massage for flexibility and energy flow, Sports massage for athletes, Hot Stone therapy for deep relaxation, Aromatherapy massage with essential oils, and our signature Banya experience with Venik treatment. Each treatment can be customized to your specific needs."
     },
     {
       question: "How do I book an appointment?",
-      answer: "Booking is easy! You can call us directly at +91 98189 31148, send us a WhatsApp message for quick booking, use our online booking form on this website, or simply walk in. We recommend booking in advance, especially for couples packages or weekend appointments. Our staff is available 24/7 to assist with bookings and answer any questions."
+      answer: "Booking is easy! You can call us directly at +91 93551 25143, send us a WhatsApp message for quick booking, use our online booking form on this website, or simply walk in. We recommend booking in advance, especially for couples packages or weekend appointments. Our staff is available 24/7 to assist with bookings and answer any questions."
     },
     {
       question: "Are your therapists certified and professional?",
@@ -45,7 +45,7 @@ const FAQ = () => {
     },
     {
       question: "What is the price range for your services?",
-      answer: "Our services are competitively priced to offer exceptional value. Individual massage sessions typically range from ₹2,000 to ₹5,000 depending on the type and duration. Couple's packages start from ₹8,000. The Russian Banya experience with Venik treatment is ₹4,500. We believe in transparent pricing with no hidden charges. Visit our Prices page or contact us for detailed pricing information and current promotional offers."
+      answer: "Our services are competitively priced to offer exceptional value. Individual massage sessions typically range from ₹2,000 to ₹5,000 depending on the type and duration. Couple's packages start from ₹8,000. The Banya experience with Venik treatment is ₹4,500. We believe in transparent pricing with no hidden charges. Visit our Prices page or contact us for detailed pricing information and current promotional offers."
     },
     {
       question: "What are your operating hours?",
@@ -65,7 +65,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-light">
-            Everything you need to know about Russian Spa Centre - Your trusted wellness destination in Mahipalpur, Delhi NCR
+            Everything you need to know about Lisa Spa Mahipalpur - Your trusted wellness destination in Mahipalpur, Delhi NCR
           </p>
         </header>
 
@@ -93,10 +93,10 @@ const FAQ = () => {
             Still have questions? We're here to help!
           </p>
           <a 
-            href="tel:+919818931148"
+            href="tel:+919355125143"
             className="inline-block bg-gradient-to-r from-gold to-gold-light hover:opacity-90 text-spa-dark font-semibold px-8 py-4 rounded-lg transition-smooth"
           >
-            Call Us: +91 98189 31148
+            Call Us: +91 93551 25143
           </a>
         </div>
       </div>

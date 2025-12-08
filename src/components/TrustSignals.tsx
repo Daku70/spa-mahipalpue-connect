@@ -11,7 +11,7 @@ const TrustSignals = () => {
 
   const certifications = [
     { title: "ISO Certified Spa", description: "International quality standards for hygiene and service excellence" },
-    { title: "Certified Therapists", description: "Russian, Thai, Swedish, and Ayurvedic massage certifications" },
+    { title: "Certified Therapists", description: "Thai, Swedish, and Ayurvedic massage certifications" },
     { title: "Hygiene Excellence", description: "Hospital-grade sanitation protocols and fresh linens every session" },
     { title: "Privacy Guaranteed", description: "Individual treatment rooms with complete privacy and discretion" },
   ];
@@ -22,10 +22,10 @@ const TrustSignals = () => {
         {/* Trust Stats */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gold mb-4">
-            Delhi NCR's Most Trusted Russian Spa Center
+            Delhi NCR's Most Trusted Spa Center
           </h2>
           <p className="text-spa-cream text-lg max-w-3xl mx-auto">
-            Over a decade of excellence in authentic Russian Banya treatments and luxury spa services near Delhi Airport, Aerocity, and Mahipalpur
+            Over a decade of excellence in authentic Banya treatments and luxury spa services near Delhi Airport, Aerocity, and Mahipalpur
           </p>
         </div>
 
