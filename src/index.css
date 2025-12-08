@@ -8,43 +8,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 20 15% 10%;
-    --foreground: 40 20% 92%;
+    --background: 350 30% 92%;
+    --foreground: 350 40% 15%;
 
-    --card: 20 18% 12%;
-    --card-foreground: 40 20% 92%;
+    --card: 350 25% 88%;
+    --card-foreground: 350 40% 15%;
 
-    --popover: 20 18% 12%;
-    --popover-foreground: 40 20% 92%;
+    --popover: 350 25% 88%;
+    --popover-foreground: 350 40% 15%;
 
-    --primary: 43 74% 58%;
-    --primary-foreground: 20 15% 10%;
+    --primary: 350 70% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 25% 22%;
-    --secondary-foreground: 40 20% 92%;
+    --secondary: 350 20% 80%;
+    --secondary-foreground: 350 40% 15%;
 
-    --muted: 30 15% 20%;
-    --muted-foreground: 40 15% 65%;
+    --muted: 350 15% 85%;
+    --muted-foreground: 350 20% 40%;
 
-    --accent: 43 74% 58%;
-    --accent-foreground: 20 15% 10%;
+    --accent: 350 70% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 40 20% 92%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 30 20% 25%;
-    --input: 30 20% 18%;
-    --ring: 43 74% 58%;
+    --border: 350 20% 75%;
+    --input: 350 20% 82%;
+    --ring: 350 70% 55%;
 
     --radius: 0.75rem;
     
     /* Custom spa theme tokens */
-    --gold: 43 74% 58%;
-    --gold-light: 45 80% 70%;
-    --gold-dark: 40 65% 45%;
-    --spa-dark: 20 15% 10%;
-    --spa-brown: 25 20% 15%;
-    --spa-cream: 40 20% 92%;
+    --gold: 350 70% 55%;
+    --gold-light: 350 80% 70%;
+    --gold-dark: 350 65% 45%;
+    --spa-dark: 350 40% 15%;
+    --spa-brown: 350 30% 25%;
+    --spa-cream: 350 20% 95%;
     
     /* Gradients */
     --gradient-gold: linear-gradient(135deg, hsl(43 74% 58%), hsl(45 80% 70%));
@@ -75,41 +75,41 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 20 15% 10%;
-    --foreground: 40 20% 92%;
+    --background: 350 30% 12%;
+    --foreground: 350 20% 92%;
 
-    --card: 20 18% 12%;
-    --card-foreground: 40 20% 92%;
+    --card: 350 28% 15%;
+    --card-foreground: 350 20% 92%;
 
-    --popover: 20 18% 12%;
-    --popover-foreground: 40 20% 92%;
+    --popover: 350 28% 15%;
+    --popover-foreground: 350 20% 92%;
 
-    --primary: 43 74% 58%;
-    --primary-foreground: 20 15% 10%;
+    --primary: 350 70% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 30 25% 22%;
-    --secondary-foreground: 40 20% 92%;
+    --secondary: 350 25% 22%;
+    --secondary-foreground: 350 20% 92%;
 
-    --muted: 30 15% 20%;
-    --muted-foreground: 40 15% 65%;
+    --muted: 350 15% 20%;
+    --muted-foreground: 350 15% 65%;
 
-    --accent: 43 74% 58%;
-    --accent-foreground: 20 15% 10%;
+    --accent: 350 70% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 40 20% 92%;
+    --destructive-foreground: 350 20% 92%;
 
-    --border: 30 20% 25%;
-    --input: 30 20% 18%;
-    --ring: 43 74% 58%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --border: 350 20% 25%;
+    --input: 350 20% 18%;
+    --ring: 350 70% 55%;
+    --sidebar-background: 350 30% 10%;
+    --sidebar-foreground: 350 20% 95%;
+    --sidebar-primary: 350 70% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 350 25% 18%;
+    --sidebar-accent-foreground: 350 20% 95%;
+    --sidebar-border: 350 20% 20%;
+    --sidebar-ring: 350 70% 55%;
   }
 }
 
