@@ -14,7 +14,7 @@ const Hero = () => {
   }, []);
 
   const handleCallNow = () => {
-    window.location.href = "tel:+919818931148";
+    window.location.href = "tel:+919355125143";
   };
 
   const scrollToBooking = () => {
@@ -40,17 +40,17 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto">
           <img 
             src={logo} 
-            alt="Russian Spa Centre - Premier Spa in NCR, Mahipalpur Delhi"
-            title="Russian Spa Centre - Authentic Russian Banya & Luxury Spa Treatments" 
+            alt="Lisa Spa Mahipalpur - Premier Spa in NCR, Mahipalpur Delhi"
+            title="Lisa Spa Mahipalpur - Luxury Spa Treatments" 
             className="w-full max-w-2xl mx-auto mb-8 animate-fade-in"
             loading="eager"
           />
           
           <h1 className="text-2xl md:text-4xl text-gold mb-4 animate-fade-in-delay font-bold tracking-wide">
-            Russian Spa in Aerocity & Mahipalpur | Book Appointment for Relaxation Therapy
+            Lisa Spa Mahipalpur | Book Appointment for Relaxation Therapy
           </h1>
           <p className="text-xl md:text-2xl text-spa-cream mb-6 animate-fade-in-delay font-light tracking-wide">
-            Premium Russian Spa in Aerocity & Mahipalpur. Book your appointment online for authentic relaxation therapy, Russian Banya, and therapeutic massage treatments near Delhi Airport
+            Premium Spa in Mahipalpur. Book your appointment online for relaxation therapy and therapeutic massage treatments near Delhi Airport
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-spa-cream mb-8 text-sm md:text-base">
             <span className="flex items-center gap-2">✓ 10 Min from Delhi Airport</span>

@@ -26,12 +26,12 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50" role="banner">
       <div className="flex items-center justify-between p-4 bg-spa-brown/95 backdrop-blur-sm border-b border-gold/20">
         <a 
-          href="tel:+919818931148" 
+          href="tel:+919355125143" 
           className="flex items-center gap-2 text-gold hover:text-gold/80 transition-smooth"
-          aria-label="Call Russian Spa Centre at +91 98189 31148"
+          aria-label="Call Lisa Spa Mahipalpur at +91 93551 25143"
         >
           <Phone className="h-5 w-5" aria-hidden="true" />
-          <span className="text-sm md:text-base font-semibold">+91 98189 31148</span>
+          <span className="text-sm md:text-base font-semibold">+91 93551 25143</span>
         </a>
         
         <Sheet>

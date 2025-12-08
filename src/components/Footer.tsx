@@ -6,9 +6,9 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-gold text-xl font-bold mb-4">Russian Spa Centre</h3>
+            <h3 className="text-gold text-xl font-bold mb-4">Lisa Spa Mahipalpur</h3>
             <p className="text-muted-foreground">
-              Experience authentic Russian Banya traditions in the heart of New Delhi
+              Experience premium spa treatments in the heart of Mahipalpur, New Delhi
             </p>
           </div>
 
@@ -29,14 +29,14 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-5 w-5 text-gold shrink-0" aria-hidden="true" />
-                <a href="tel:+919818931148" className="hover:text-gold transition-smooth" aria-label="Call Russian Spa Centre">
-                  +91 98189 31148
+                <a href="tel:+919355125143" className="hover:text-gold transition-smooth" aria-label="Call Lisa Spa Mahipalpur">
+                  +91 93551 25143
                 </a>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-5 w-5 text-gold shrink-0" aria-hidden="true" />
-                <a href="mailto:info@russianspacentre.com" className="hover:text-gold transition-smooth" aria-label="Email Russian Spa Centre">
-                  info@russianspacentre.com
+                <a href="mailto:info@lisaspamahipalpur.com" className="hover:text-gold transition-smooth" aria-label="Email Lisa Spa Mahipalpur">
+                  info@lisaspamahipalpur.com
                 </a>
               </div>
             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Russian Spa Centre Location Map"
+                  title="Lisa Spa Mahipalpur Location Map"
                   className="grayscale-[0.2]"
                 />
               </div>
@@ -105,7 +105,7 @@ const Footer = () => {
           <h3 className="text-2xl font-bold text-center text-foreground mb-6">Book Your Appointment</h3>
           <div className="text-center text-muted-foreground leading-relaxed max-w-3xl mx-auto">
             <p className="text-lg mb-4">
-              Call us at <a href="tel:+919818931148" className="text-gold font-bold hover:text-gold-light transition-smooth">+91 98189 31148</a> or fill out our <a href="#booking" className="text-gold font-bold hover:text-gold-light transition-smooth">Online Form</a> to reserve your spot.
+              Call us at <a href="tel:+919355125143" className="text-gold font-bold hover:text-gold-light transition-smooth">+91 93551 25143</a> or fill out our <a href="#booking" className="text-gold font-bold hover:text-gold-light transition-smooth">Online Form</a> to reserve your spot.
             </p>
             <p className="text-lg">
               Open daily <span className="font-bold text-gold">24 hours</span>, we offer <span className="font-bold">24-Hour Massage Services</span> and <span className="font-bold">Couples Packages</span> for maximum flexibility.
@@ -115,7 +115,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border">
           <div className="text-center text-muted-foreground mb-4">
-            <p>&copy; {new Date().getFullYear()} Russian Spa Centre. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Lisa Spa Mahipalpur. All rights reserved.</p>
             <nav className="mt-4 flex justify-center gap-6 text-sm" aria-label="Footer navigation">
               <a href="/about" className="hover:text-gold transition-smooth">About</a>
               <a href="/services" className="hover:text-gold transition-smooth">Services</a>
