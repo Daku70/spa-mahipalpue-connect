@@ -27,9 +27,9 @@ const Index = () => {
   return (
     <>
       <SEO 
-        title="Russian Spa in Aerocity & Mahipalpur | Book Appointment Online | Relaxation Therapy Near Delhi Airport"
-        description="★★★★★ Best Russian Spa in Aerocity, Mahipalpur Delhi. Book Appointment Online for Relaxation Therapy, Russian Banya, Deep Tissue & Couples Massage. Open 24/7. ISO Certified. ☎ +91 98189 31148"
-        keywords="Russian spa in Aerocity, Russian spa Aerocity Delhi, Book Appointment spa Mahipalpur, Relaxation Therapy near airport, Russian spa Mahipalpur, Russian Banya Aerocity, body massage Aerocity, couples spa Aerocity Mahipalpur, Thai massage Aerocity, deep tissue massage Delhi, spa near me Aerocity, book spa appointment online, Russian massage therapy, relaxation therapy Delhi NCR, Swedish massage Mahipalpur, aromatherapy Aerocity"
+        title="Lisa Spa Mahipalpur | Book Appointment Online | Relaxation Therapy Near Delhi Airport"
+        description="★★★★★ Best Spa in Aerocity, Mahipalpur Delhi. Book Appointment Online for Relaxation Therapy, Banya, Deep Tissue & Couples Massage. Open 24/7. ISO Certified. ☎ +91 93551 25143"
+        keywords="Spa in Aerocity, Spa Aerocity Delhi, Book Appointment spa Mahipalpur, Relaxation Therapy near airport, Spa Mahipalpur, Banya Aerocity, body massage Aerocity, couples spa Aerocity Mahipalpur, Thai massage Aerocity, deep tissue massage Delhi, spa near me Aerocity, book spa appointment online, massage therapy, relaxation therapy Delhi NCR, Swedish massage Mahipalpur, aromatherapy Aerocity"
         canonical="https://mahipalpurspacentre.com/"
       />
       <OrganizationSchema />

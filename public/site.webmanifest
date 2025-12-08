@@ -1,7 +1,7 @@
 {
-  "name": "Russian Spa Centre Mahipalpur - Best Russian Spa Near Delhi Airport",
-  "short_name": "Russian Spa Centre",
-  "description": "Premium Russian Spa in Mahipalpur & Aerocity offering authentic Russian Banya, body massage, Thai massage, deep tissue therapy, and couples spa packages. 10 min from Delhi Airport. Open 24/7. Book online or call +91-9818931148",
+  "name": "Lisa Spa Mahipalpur - Best Spa Near Delhi Airport",
+  "short_name": "Lisa Spa Mahipalpur",
+  "description": "Premium Spa in Mahipalpur & Aerocity offering authentic Banya, body massage, Thai massage, deep tissue therapy, and couples spa packages. 10 min from Delhi Airport. Open 24/7. Book online or call +91-9355125143",
   "start_url": "/?source=pwa",
   "display": "standalone",
   "background_color": "#1a1a1a",
@@ -36,7 +36,7 @@
       "sizes": "1920x1080",
       "type": "image/jpeg",
       "form_factor": "wide",
-      "label": "Russian Spa Centre - Luxury Spa Interior Mahipalpur"
+      "label": "Lisa Spa Mahipalpur - Luxury Spa Interior Mahipalpur"
     }
   ],
   "shortcuts": [
@@ -50,8 +50,8 @@
     {
       "name": "Call Now",
       "short_name": "Call",
-      "description": "Call Russian Spa Centre",
-      "url": "tel:+919818931148",
+      "description": "Call Lisa Spa Mahipalpur",
+      "url": "tel:+919355125143",
       "icons": [{ "src": "/favicon.png", "sizes": "64x64" }]
     },
     {
