@@ -1,4 +1,4 @@
-import { Check, X } from "lucide-react";
+import { Check, X, Sparkles } from "lucide-react";
 
 const ServiceComparison = () => {
   const comparisons = [
@@ -17,52 +17,73 @@ const ServiceComparison = () => {
   ];
 
   return (
-    <section className="py-16 bg-spa-light/5" id="comparison">
-      <div className="container mx-auto px-4">
+    <section className="py-20 bg-background relative overflow-hidden" id="comparison">
+      {/* Background decorations */}
+      <div className="absolute top-40 left-0 w-80 h-80 bg-turquoise/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-40 right-0 w-80 h-80 bg-coral/5 rounded-full blur-3xl" />
+      
+      <div className="container relative mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose Lisa Spa Mahipalpur Over Other Spas in Mahipalpur?
+            <div className="inline-flex items-center gap-2 bg-coral/10 border border-coral/30 rounded-full px-4 py-2 mb-6">
+              <Sparkles className="w-4 h-4 text-coral" />
+              <span className="text-sm font-medium text-foreground">Why Us?</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-extrabold mb-4">
+              <span className="bg-gradient-to-r from-turquoise to-coral bg-clip-text text-transparent">
+                Why Choose Lisa Spa Mahipalpur?
+              </span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              Compare what sets us apart from other spa centers in Mahipalpur, Aerocity, and Delhi NCR. See why thousands choose us for premium spa treatments.
+              Compare what sets us apart from other spa centers in Mahipalpur, Aerocity, and Delhi NCR.
             </p>
           </div>
 
           {/* Comparison Table */}
-          <div className="bg-card border border-border rounded-xl overflow-hidden shadow-xl">
-            <div className="grid grid-cols-3 gap-4 p-4 bg-spa-dark border-b border-gold/30">
+          <div className="bg-card border-2 border-turquoise/20 rounded-3xl overflow-hidden shadow-xl">
+            {/* Header */}
+            <div className="grid grid-cols-3 gap-4 p-6 bg-navy">
               <div className="text-spa-cream font-semibold">Features & Services</div>
               <div className="text-center">
-                <div className="text-gold font-bold text-lg mb-1">Lisa Spa Mahipalpur</div>
-                <div className="text-xs text-spa-cream/70">Mahipalpur</div>
+                <div className="inline-flex items-center gap-2 bg-turquoise/20 rounded-full px-4 py-2">
+                  <Sparkles className="w-4 h-4 text-turquoise" />
+                  <span className="text-turquoise font-bold">Lisa Spa</span>
+                </div>
               </div>
               <div className="text-center">
-                <div className="text-muted-foreground font-bold text-lg mb-1">Other Spas</div>
-                <div className="text-xs text-muted-foreground/70">Mahipalpur Area</div>
+                <span className="text-spa-cream/60 font-medium">Other Spas</span>
               </div>
             </div>
 
+            {/* Rows */}
             {comparisons.map((item, index) => (
               <div 
                 key={index} 
                 className={`grid grid-cols-3 gap-4 p-4 ${
                   index % 2 === 0 ? 'bg-background' : 'bg-muted/30'
-                } border-b border-border last:border-b-0 hover:bg-muted/50 transition-colors`}
+                } border-b border-border last:border-b-0 hover:bg-turquoise/5 transition-colors`}
               >
-                <div className="text-foreground text-sm">{item.feature}</div>
+                <div className="text-foreground text-sm font-medium">{item.feature}</div>
                 <div className="flex justify-center">
                   {item.us ? (
-                    <Check className="w-6 h-6 text-green-500" />
+                    <div className="w-8 h-8 rounded-full bg-turquoise/20 flex items-center justify-center">
+                      <Check className="w-5 h-5 text-turquoise" />
+                    </div>
                   ) : (
-                    <X className="w-6 h-6 text-red-500" />
+                    <div className="w-8 h-8 rounded-full bg-destructive/20 flex items-center justify-center">
+                      <X className="w-5 h-5 text-destructive" />
+                    </div>
                   )}
                 </div>
                 <div className="flex justify-center">
                   {item.others ? (
-                    <Check className="w-6 h-6 text-green-500/50" />
+                    <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center">
+                      <Check className="w-5 h-5 text-muted-foreground" />
+                    </div>
                   ) : (
-                    <X className="w-6 h-6 text-red-500/50" />
+                    <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center">
+                      <X className="w-5 h-5 text-muted-foreground/50" />
+                    </div>
                   )}
                 </div>
               </div>
@@ -71,7 +92,7 @@ const ServiceComparison = () => {
 
           <div className="mt-8 text-center">
             <p className="text-muted-foreground text-sm italic">
-              * Comparison based on services offered by leading spa centers in Mahipalpur, Aerocity, and surrounding areas as of November 2024
+              * Comparison based on services offered by leading spa centers in Mahipalpur, Aerocity, and surrounding areas
             </p>
           </div>
         </div>

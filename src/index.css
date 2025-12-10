@@ -2,114 +2,141 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Bold & Vibrant Design System - Energetic Spa Theme */
 
 @layer base {
   :root {
-    --background: 350 30% 92%;
-    --foreground: 350 40% 15%;
+    --background: 180 20% 97%;
+    --foreground: 220 40% 13%;
 
-    --card: 350 25% 88%;
-    --card-foreground: 350 40% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 40% 13%;
 
-    --popover: 350 25% 88%;
-    --popover-foreground: 350 40% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 40% 13%;
 
-    --primary: 350 70% 55%;
+    --primary: 174 72% 46%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 350 20% 80%;
-    --secondary-foreground: 350 40% 15%;
+    --secondary: 16 100% 65%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 350 15% 85%;
-    --muted-foreground: 350 20% 40%;
+    --muted: 180 15% 92%;
+    --muted-foreground: 220 15% 45%;
 
-    --accent: 350 70% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 100% 58%;
+    --accent-foreground: 220 40% 13%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 350 20% 75%;
-    --input: 350 20% 82%;
-    --ring: 350 70% 55%;
+    --border: 180 20% 85%;
+    --input: 180 15% 90%;
+    --ring: 174 72% 46%;
 
-    --radius: 0.75rem;
+    --radius: 1rem;
     
-    /* Custom spa theme tokens */
-    --gold: 350 70% 55%;
-    --gold-light: 350 80% 70%;
-    --gold-dark: 350 65% 45%;
-    --spa-dark: 350 40% 15%;
-    --spa-brown: 350 30% 25%;
-    --spa-cream: 350 20% 95%;
+    /* Custom vibrant theme tokens */
+    --turquoise: 174 72% 46%;
+    --turquoise-light: 174 80% 60%;
+    --turquoise-dark: 174 72% 35%;
+    --coral: 16 100% 65%;
+    --coral-light: 16 100% 75%;
+    --coral-dark: 16 90% 50%;
+    --sunny: 45 100% 58%;
+    --sunny-light: 45 100% 70%;
+    --navy: 220 40% 13%;
+    --navy-light: 220 35% 25%;
+    
+    /* Legacy gold colors mapped to new theme */
+    --gold: 174 72% 46%;
+    --gold-light: 174 80% 60%;
+    --gold-dark: 174 72% 35%;
+    --spa-dark: 220 40% 13%;
+    --spa-brown: 220 35% 20%;
+    --spa-cream: 0 0% 98%;
+    --spa-light: 180 20% 95%;
     
     /* Gradients */
-    --gradient-gold: linear-gradient(135deg, hsl(43 74% 58%), hsl(45 80% 70%));
-    --gradient-dark: linear-gradient(180deg, hsl(20 15% 10%), hsl(25 20% 15%));
+    --gradient-vibrant: linear-gradient(135deg, hsl(174 72% 46%), hsl(16 100% 65%));
+    --gradient-sunny: linear-gradient(135deg, hsl(45 100% 58%), hsl(16 100% 65%));
+    --gradient-cool: linear-gradient(135deg, hsl(220 40% 13%), hsl(174 72% 46%));
     
     /* Shadows */
-    --shadow-gold: 0 10px 40px -10px hsl(43 74% 58% / 0.3);
-    --shadow-elegant: 0 20px 60px -15px hsl(0 0% 0% / 0.5);
+    --shadow-vibrant: 0 10px 40px -10px hsl(174 72% 46% / 0.4);
+    --shadow-coral: 0 10px 40px -10px hsl(16 100% 65% / 0.4);
+    --shadow-elegant: 0 20px 60px -15px hsl(220 40% 13% / 0.3);
     
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-foreground: 220 40% 13%;
+    --sidebar-primary: 174 72% 46%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 180 15% 92%;
+    --sidebar-accent-foreground: 220 40% 13%;
+    --sidebar-border: 180 20% 85%;
+    --sidebar-ring: 174 72% 46%;
   }
 
   .dark {
-    --background: 350 30% 12%;
-    --foreground: 350 20% 92%;
+    --background: 220 40% 8%;
+    --foreground: 180 20% 95%;
 
-    --card: 350 28% 15%;
-    --card-foreground: 350 20% 92%;
+    --card: 220 38% 12%;
+    --card-foreground: 180 20% 95%;
 
-    --popover: 350 28% 15%;
-    --popover-foreground: 350 20% 92%;
+    --popover: 220 38% 12%;
+    --popover-foreground: 180 20% 95%;
 
-    --primary: 350 70% 55%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 174 72% 50%;
+    --primary-foreground: 220 40% 8%;
 
-    --secondary: 350 25% 22%;
-    --secondary-foreground: 350 20% 92%;
+    --secondary: 16 100% 65%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 350 15% 20%;
-    --muted-foreground: 350 15% 65%;
+    --muted: 220 30% 18%;
+    --muted-foreground: 180 15% 60%;
 
-    --accent: 350 70% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 45 100% 58%;
+    --accent-foreground: 220 40% 8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 350 20% 92%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 180 20% 95%;
 
-    --border: 350 20% 25%;
-    --input: 350 20% 18%;
-    --ring: 350 70% 55%;
-    --sidebar-background: 350 30% 10%;
-    --sidebar-foreground: 350 20% 95%;
-    --sidebar-primary: 350 70% 55%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 350 25% 18%;
-    --sidebar-accent-foreground: 350 20% 95%;
-    --sidebar-border: 350 20% 20%;
-    --sidebar-ring: 350 70% 55%;
+    --border: 220 30% 22%;
+    --input: 220 30% 18%;
+    --ring: 174 72% 50%;
+    
+    --turquoise: 174 72% 50%;
+    --turquoise-light: 174 80% 65%;
+    --turquoise-dark: 174 72% 40%;
+    --coral: 16 100% 65%;
+    --coral-light: 16 100% 75%;
+    --coral-dark: 16 90% 55%;
+    --sunny: 45 100% 58%;
+    --sunny-light: 45 100% 70%;
+    --navy: 220 40% 8%;
+    --navy-light: 220 35% 18%;
+    
+    --gold: 174 72% 50%;
+    --gold-light: 174 80% 65%;
+    --gold-dark: 174 72% 40%;
+    --spa-dark: 220 40% 8%;
+    --spa-brown: 220 35% 15%;
+    --spa-cream: 180 20% 95%;
+    --spa-light: 220 30% 12%;
+    
+    --sidebar-background: 220 40% 6%;
+    --sidebar-foreground: 180 20% 95%;
+    --sidebar-primary: 174 72% 50%;
+    --sidebar-primary-foreground: 220 40% 8%;
+    --sidebar-accent: 220 30% 15%;
+    --sidebar-accent-foreground: 180 20% 95%;
+    --sidebar-border: 220 30% 18%;
+    --sidebar-ring: 174 72% 50%;
   }
 }
 
@@ -120,25 +147,25 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
 @layer utilities {
   .text-gold {
-    color: hsl(var(--gold));
+    color: hsl(var(--turquoise));
   }
   
   .bg-gold {
-    background-color: hsl(var(--gold));
+    background-color: hsl(var(--turquoise));
   }
   
   .text-gold-light {
-    color: hsl(var(--gold-light));
+    color: hsl(var(--turquoise-light));
   }
   
   .text-spa-cream {
@@ -146,45 +173,173 @@ All colors MUST be HSL.
   }
   
   .bg-spa-dark {
-    background-color: hsl(var(--spa-dark));
+    background-color: hsl(var(--navy));
   }
   
   .bg-spa-brown {
-    background-color: hsl(var(--spa-brown));
+    background-color: hsl(var(--navy-light));
+  }
+  
+  .bg-spa-light {
+    background-color: hsl(var(--spa-light));
+  }
+  
+  .text-turquoise {
+    color: hsl(var(--turquoise));
+  }
+  
+  .bg-turquoise {
+    background-color: hsl(var(--turquoise));
+  }
+  
+  .text-coral {
+    color: hsl(var(--coral));
+  }
+  
+  .bg-coral {
+    background-color: hsl(var(--coral));
+  }
+  
+  .text-sunny {
+    color: hsl(var(--sunny));
+  }
+  
+  .bg-sunny {
+    background-color: hsl(var(--sunny));
+  }
+  
+  .bg-navy {
+    background-color: hsl(var(--navy));
   }
   
   .shadow-gold {
-    box-shadow: var(--shadow-gold);
+    box-shadow: var(--shadow-vibrant);
+  }
+  
+  .shadow-coral {
+    box-shadow: var(--shadow-coral);
   }
   
   .shadow-elegant {
     box-shadow: var(--shadow-elegant);
   }
   
+  .gradient-vibrant {
+    background: var(--gradient-vibrant);
+  }
+  
+  .gradient-sunny {
+    background: var(--gradient-sunny);
+  }
+  
+  .gradient-cool {
+    background: var(--gradient-cool);
+  }
+  
   .transition-smooth {
     transition: var(--transition-smooth);
   }
   
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+  
   .animate-fade-in {
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 0.8s ease-out;
   }
   
   .animate-fade-in-delay {
-    animation: fadeIn 1s ease-in 0.3s both;
+    animation: fadeIn 0.8s ease-out 0.2s both;
   }
   
   .animate-fade-in-delay-2 {
-    animation: fadeIn 1s ease-in 0.6s both;
+    animation: fadeIn 0.8s ease-out 0.4s both;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.6s ease-out;
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-pulse-soft {
+    animation: pulseSoft 2s ease-in-out infinite;
   }
 }
 
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulseSoft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    hsl(var(--turquoise-light) / 0.3) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
 }
