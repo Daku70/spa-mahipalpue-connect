@@ -21,11 +21,11 @@ const ServiceComparison = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Why Choose Russian Spa Centre Over Other Spas in Mahipalpur?
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              Why Choose Lisa Spa Mahipalpur Over Other Spas in Mahipalpur?
             </h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              Compare what sets us apart from other spa centers in Mahipalpur, Aerocity, and Delhi NCR. See why thousands choose us for authentic Russian spa treatments.
+              Compare what sets us apart from other spa centers in Mahipalpur, Aerocity, and Delhi NCR. See why thousands choose us for premium spa treatments.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ const ServiceComparison = () => {
             <div className="grid grid-cols-3 gap-4 p-4 bg-spa-dark border-b border-gold/30">
               <div className="text-spa-cream font-semibold">Features & Services</div>
               <div className="text-center">
-                <div className="text-gold font-bold text-lg mb-1">Russian Spa Centre</div>
+                <div className="text-gold font-bold text-lg mb-1">Lisa Spa Mahipalpur</div>
                 <div className="text-xs text-spa-cream/70">Mahipalpur</div>
               </div>
               <div className="text-center">

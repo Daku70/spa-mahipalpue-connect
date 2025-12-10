@@ -59,7 +59,7 @@ const PricingTransparency = () => {
   };
 
   const handleCallNow = () => {
-    window.location.href = "tel:+919818931148";
+    window.location.href = "tel:+919355125143";
   };
 
   return (
@@ -158,7 +158,7 @@ const PricingTransparency = () => {
                   className="border-gold text-gold hover:bg-gold hover:text-spa-dark"
                 >
                   <Phone className="mr-2 h-4 w-4" />
-                  Call for Custom Packages: +91 98189 31148
+                  Call for Custom Packages: +91 93551 25143
                 </Button>
               </div>
             </CardContent>
