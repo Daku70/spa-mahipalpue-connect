@@ -24,7 +24,7 @@ const FloatingCallButton = () => {
       <Button
         onClick={handleCallNow}
         size="lg"
-        className="rounded-full w-16 h-16 shadow-gold bg-gradient-to-r from-gold to-gold-light hover:opacity-90 text-spa-dark transition-smooth animate-pulse hover:animate-none"
+        className="rounded-full w-16 h-16 shadow-lg bg-gradient-to-r from-turquoise to-coral hover:opacity-90 text-white transition-smooth animate-bounce-subtle"
         aria-label="Call Now"
       >
         <Phone className="h-6 w-6" />
