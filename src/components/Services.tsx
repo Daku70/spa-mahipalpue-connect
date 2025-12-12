@@ -7,20 +7,21 @@ import aromatherapyImage from "@/assets/aromatherapy.jpg";
 import deepTissueImage from "@/assets/deep-tissue.jpg";
 import swedishImage from "@/assets/swedish.jpg";
 import coupleSpaImage from "@/assets/couple-spa.jpg";
+import facialImage from "@/assets/facial.jpg";
 
 const services = [
   {
-    title: "Traditional Russian Banya",
-    description: `Immerse yourself in the centuries-old tradition of the Russian Banya, an authentic steam bath experience that detoxifies and rejuvenates your entire body. Our skilled therapists use the traditional Venik technique, gently massaging you with aromatic birch leaves that have been soaked in hot water to release their natural oils and healing properties. The intense heat of the banya opens your pores, allowing deep cleansing and improved circulation throughout your body. This ancient ritual promotes lymphatic drainage, eliminates toxins, and strengthens your immune system. The combination of heat therapy and the therapeutic touch of birch leaves creates a deeply relaxing experience that relieves muscle tension and stress.`,
+    title: "Traditional Banya",
+    description: `Immerse yourself in the centuries-old tradition of the Banya, an authentic steam bath experience that detoxifies and rejuvenates your entire body. Our skilled therapists use the traditional Venik technique, gently massaging you with aromatic birch leaves.`,
     price: "₹2,500",
     duration: "60 minutes",
     image: banyaImage,
-    alt: "Authentic Russian Banya steam bath treatment with traditional Venik birch leaves at Lisa Spa Mahipalpur near Delhi Airport",
+    alt: "Authentic Banya steam bath treatment with traditional Venik birch leaves at Lisa Spa Mahipalpur near Delhi Airport",
     color: "turquoise",
   },
   {
     title: "Deep Tissue Massage",
-    description: `Experience the profound healing power of our signature Deep Tissue Massage, expertly designed to target chronic muscle tension and pain deep within your body. Our highly trained therapists use specialized techniques including slow, deliberate strokes and deep finger pressure to reach the innermost layers of your muscles and connective tissues. This therapeutic massage is particularly effective for addressing chronic pain conditions, sports injuries, and postural problems that have developed over time.`,
+    description: `Experience the profound healing power of our signature Deep Tissue Massage, expertly designed to target chronic muscle tension and pain deep within your body using slow, deliberate strokes and deep finger pressure.`,
     price: "₹3,500",
     duration: "90 minutes",
     image: deepTissueImage,
@@ -29,7 +30,7 @@ const services = [
   },
   {
     title: "Hot Stone Therapy",
-    description: `Surrender to the ancient art of Hot Stone Therapy, where smooth, heated volcanic stones become instruments of deep relaxation and healing. Our therapists carefully place warm basalt stones along your spine, in your palms, and between your toes, allowing the penetrating heat to melt away tension from your muscles and calm your nervous system. The stones are heated to the perfect temperature and combined with expert massage techniques to provide a deeply therapeutic experience.`,
+    description: `Surrender to the ancient art of Hot Stone Therapy, where smooth, heated volcanic stones become instruments of deep relaxation and healing. The stones are heated to the perfect temperature and combined with expert massage techniques.`,
     price: "₹4,000",
     duration: "90 minutes",
     image: massageImage,
@@ -38,7 +39,7 @@ const services = [
   },
   {
     title: "Aromatherapy Massage",
-    description: `Indulge in the luxurious world of Aromatherapy Massage, where the healing power of touch combines with the therapeutic properties of pure essential oils to create a transformative wellness experience. Our expert therapists carefully select premium essential oils tailored to your specific needs, whether you seek relaxation, energy boost, pain relief, or emotional balance.`,
+    description: `Indulge in the luxurious world of Aromatherapy Massage, where the healing power of touch combines with the therapeutic properties of pure essential oils to create a transformative wellness experience.`,
     price: "₹3,000",
     duration: "75 minutes",
     image: aromatherapyImage,
@@ -47,7 +48,7 @@ const services = [
   },
   {
     title: "Swedish Massage",
-    description: `Discover the timeless benefits of Swedish Massage, the most popular and widely practiced massage therapy technique in the world. This classic full-body massage uses five fundamental techniques including long flowing strokes, kneading, friction, tapping, and gentle stretching to promote complete relaxation and wellbeing. Our certified therapists apply these techniques in a carefully orchestrated sequence.`,
+    description: `Discover the timeless benefits of Swedish Massage, the most popular massage therapy technique using five fundamental techniques including long flowing strokes, kneading, friction, tapping, and gentle stretching.`,
     price: "₹2,800",
     duration: "60 minutes",
     image: swedishImage,
@@ -56,12 +57,84 @@ const services = [
   },
   {
     title: "Couple's Spa Package",
-    description: `Celebrate your relationship with our exclusive Couple's Spa Package, a romantic wellness journey designed for two people to experience simultaneously in our beautiful couples treatment room. Begin your experience together with a steam bath, followed by customized full-body massage performed by two of our expert therapists working in perfect synchronization.`,
+    description: `Celebrate your relationship with our exclusive Couple's Spa Package, a romantic wellness journey designed for two people to experience simultaneously in our beautiful couples treatment room.`,
     price: "₹7,500",
     duration: "120 minutes",
     image: coupleSpaImage,
     alt: "Romantic couples spa package with synchronized massage at Lisa Spa Mahipalpur",
     color: "sunny",
+  },
+  {
+    title: "Thai Massage",
+    description: `Experience the ancient healing art of Thai Massage, combining acupressure, assisted yoga stretches, and deep compressions. This energizing treatment improves flexibility, relieves tension, and balances your body's energy flow.`,
+    price: "₹2,300",
+    duration: "60 minutes",
+    image: massageImage,
+    alt: "Traditional Thai massage with stretching therapy at Lisa Spa Mahipalpur near Delhi Airport",
+    color: "turquoise",
+  },
+  {
+    title: "Sports Massage",
+    description: `Designed specifically for athletes and active individuals, our Sports Massage targets muscle groups used in your specific sport or activity. Helps prevent injuries, improves performance, and speeds up recovery.`,
+    price: "₹2,600",
+    duration: "60 minutes",
+    image: deepTissueImage,
+    alt: "Sports massage therapy for athletes at Lisa Spa Mahipalpur Aerocity Delhi",
+    color: "coral",
+  },
+  {
+    title: "Reflexology",
+    description: `Discover the healing power of Reflexology, an ancient practice that applies pressure to specific points on your feet that correspond to organs and systems throughout your body, promoting natural healing.`,
+    price: "₹1,800",
+    duration: "45 minutes",
+    image: swedishImage,
+    alt: "Reflexology foot massage therapy at Lisa Spa Mahipalpur near Delhi Airport",
+    color: "sunny",
+  },
+  {
+    title: "Head & Scalp Massage",
+    description: `Relieve stress and tension with our traditional Indian Champi-style Head & Scalp Massage. This rejuvenating treatment promotes hair health, improves circulation, and provides deep relaxation.`,
+    price: "₹1,500",
+    duration: "30 minutes",
+    image: aromatherapyImage,
+    alt: "Indian Champi head and scalp massage at Lisa Spa Mahipalpur Delhi",
+    color: "turquoise",
+  },
+  {
+    title: "Body Scrub & Polish",
+    description: `Reveal radiant, glowing skin with our luxurious Body Scrub & Polish treatment. We gently exfoliate dead skin cells using natural ingredients, leaving your skin smooth, soft, and renewed.`,
+    price: "₹2,500",
+    duration: "60 minutes",
+    image: facialImage,
+    alt: "Body scrub and polish exfoliation treatment at Lisa Spa Mahipalpur Aerocity",
+    color: "coral",
+  },
+  {
+    title: "Premium Facial",
+    description: `Pamper your skin with our Premium Facial treatment, customized to your skin type. Includes deep cleansing, exfoliation, extraction, massage, mask, and premium skincare products for a radiant glow.`,
+    price: "₹3,000",
+    duration: "60 minutes",
+    image: facialImage,
+    alt: "Premium facial treatment with skincare at Lisa Spa Mahipalpur near Delhi Airport",
+    color: "sunny",
+  },
+  {
+    title: "Back, Neck & Shoulder",
+    description: `Target the most common stress areas with our focused Back, Neck & Shoulder massage. Perfect for office workers and those with upper body tension, this treatment provides targeted relief.`,
+    price: "₹1,800",
+    duration: "30 minutes",
+    image: deepTissueImage,
+    alt: "Back neck and shoulder massage therapy at Lisa Spa Mahipalpur Delhi",
+    color: "turquoise",
+  },
+  {
+    title: "Full Body Oil Massage",
+    description: `Experience complete relaxation with our Full Body Oil Massage using warm, premium oils. This traditional treatment nourishes your skin, relaxes muscles, and promotes overall wellbeing.`,
+    price: "₹2,500",
+    duration: "60 minutes",
+    image: massageImage,
+    alt: "Full body oil massage therapy at Lisa Spa Mahipalpur near Delhi Airport",
+    color: "coral",
   },
 ];
 
